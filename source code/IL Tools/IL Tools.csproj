@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D22AD501-13B5-4246-B80A-FC702A381382}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IL_Tools</RootNamespace>
+    <AssemblyName>IL Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>D:\MyProj\IL Tools\Install\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:8080/</InstallUrl>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>19F36240E1016D468A7668D8023BF25CAD4B8BF7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IL Logo V2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.1.1.0\lib\net45\FireSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FireSharp.Serialization.JsonNet, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.Serialization.JsonNet.1.1.0\lib\net45\FireSharp.Serialization.JsonNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activeTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activeTools.Designer.cs">
+      <DependentUpon>activeTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdbCmd.cs" />
+    <Compile Include="AddKosher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddKosher.Designer.cs">
+      <DependentUpon>AddKosher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="fixTuch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fixTuch.Designer.cs">
+      <DependentUpon>fixTuch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frpReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frpReset.Designer.cs">
+      <DependentUpon>frpReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helperData.cs" />
+    <Compile Include="helperRun.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manger.Designer.cs">
+      <DependentUpon>manger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messegBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messegBox.Designer.cs">
+      <DependentUpon>messegBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modelFRPDwonlodsMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modelFRPDwonlodsMode.Designer.cs">
+      <DependentUpon>modelFRPDwonlodsMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phoneInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phoneInfo.Designer.cs">
+      <DependentUpon>phoneInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reapirBlockByFRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reapirBlockByFRP.Designer.cs">
+      <DependentUpon>reapirBlockByFRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="removeDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="removeDemo.Designer.cs">
+      <DependentUpon>removeDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveKosher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveKosher.Designer.cs">
+      <DependentUpon>RemoveKosher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samsung.cs" />
+    <Compile Include="unlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unlock.Designer.cs">
+      <DependentUpon>unlock.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="activeTools.resx">
+      <DependentUpon>activeTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddKosher.resx">
+      <DependentUpon>AddKosher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fixTuch.resx">
+      <DependentUpon>fixTuch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frpReset.resx">
+      <DependentUpon>frpReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.he-IL.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manger.resx">
+      <DependentUpon>manger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messegBox.resx">
+      <DependentUpon>messegBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modelFRPDwonlodsMode.resx">
+      <DependentUpon>modelFRPDwonlodsMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phoneInfo.resx">
+      <DependentUpon>phoneInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reapirBlockByFRP.resx">
+      <DependentUpon>reapirBlockByFRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="removeDemo.resx">
+      <DependentUpon>removeDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveKosher.resx">
+      <DependentUpon>RemoveKosher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unlock.resx">
+      <DependentUpon>unlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="IL Tools_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockFRP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\models picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\models pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penguin_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reduce-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IL Logo V2.ico" />
+    <None Include="Resources\checkmark.1.gif" />
+    <None Include="Resources\checkmark.gif" />
+    <None Include="Resources\icons8_Synchronize_50px.png" />
+    <None Include="Resources\icons8_Reset_24px.png" />
+    <None Include="Resources\icons8_Synchronize_48px.png" />
+    <None Include="Resources\icons8_USB_Connected_48px.png" />
+    <None Include="Resources\icons8_USB_Disconnected_48px.png" />
+    <None Include="Resources\icons8-processor-filled-50.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

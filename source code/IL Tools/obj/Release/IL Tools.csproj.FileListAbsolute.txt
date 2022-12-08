@@ -1,0 +1,37 @@
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.activeTools.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.AddKosher.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.fixTuch.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.frpReset.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.Home.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.manger.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.messegBox.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.modelFRPDwonlodsMode.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.phoneInfo.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.Properties.Resources.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.reapirBlockByFRP.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.removeDemo.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.RemoveKosher.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.unlock.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL_Tools.Home.he-IL.resources
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.csproj.GenerateResource.cache
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.csproj.CoreCompileInputs.cache
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.csprojAssemblyReference.cache
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\IL Tools.exe.config
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\IL Tools.exe.manifest
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\IL Tools.application
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\IL Tools.exe
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\IL Tools.pdb
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\he-IL\IL Tools.resources.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\FireSharp.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\FireSharp.Serialization.JsonNet.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\Newtonsoft.Json.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\RestSharp.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\Newtonsoft.Json.xml
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\bin\Release\RestSharp.xml
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\he-IL\IL Tools.resources.dll
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.exe.manifest
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.application
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.csproj.CopyComplete
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.exe
+C:\Users\lidor malich\Documents\MyProj\IL Tools\IL Tools\obj\Release\IL Tools.pdb
